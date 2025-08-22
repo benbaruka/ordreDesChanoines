@@ -301,7 +301,7 @@ const Dashboard = () => {
           {/* Last In */}
           <div className="w-full">
             <div className="rounded-2xl bg-white p-6 shadow dark:bg-gray-900">
-              <h2 className="mb-4 text-lg font-semibold">Dernières entrées</h2>
+              <h2 className="mb-4 text-lg font-semibold">Dernières opérations</h2>
               <ProductTable data={lastInData?.data!} />
             </div>
           </div>
